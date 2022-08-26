@@ -52,7 +52,7 @@ body {
 
 .slider .item {
   width: 250px;
-  height: 300px;
+  height: 250px;
   flex: none;
   scroll-snap-align: start;
 }
@@ -64,6 +64,8 @@ body {
 }
 
 .slider .item .caption {
+  font-weight: 700;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
 }
@@ -100,6 +102,7 @@ body {
 }
 
 .mission-card span {
+  font-size: 1.2rem;
   display: block;
 }
 
