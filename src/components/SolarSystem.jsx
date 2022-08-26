@@ -4,20 +4,26 @@ import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
 
 class SolarSystem extends React.Component {
+  toRight = () => {
+
+  }
+
   render() {
     return (
-      <div data-testid="solar-system">
-        <Title headline="Planetas" />
-        <div>
-          {
-            planets.map((planet) => (
-              <PlanetCard
-                key={ planet.name }
-                planetName={ planet.name }
-                planetImage={ planet.image }
-              />
-            ))
-          }
+      <div className="solar-system">
+        <div className="container" data-testid="solar-system">
+          <Title headline="Planetas" />
+          <div className="slider">
+            {
+              planets.map((planet) => (
+                <PlanetCard
+                  key={ planet.name }
+                  planetName={ planet.name }
+                  planetImage={ planet.image }
+                />
+              ))
+            }
+          </div>
         </div>
       </div>
     );
