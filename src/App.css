@@ -27,6 +27,15 @@ body {
   width: 100%;
 }
 
+.header .logo {
+  max-width: 450px;
+  margin: auto;
+}
+
+.header .logo img {
+  width: 100%;
+}
+
 .solar-system {
   padding: 1rem;
 }
