@@ -1,16 +1,27 @@
-# 🚧 README em construção 🚧
+# Solar System
 
-<!-- Olá, Tryber!
+### PT - BR
 
-Esse é apenas um arquivo inicial para o README do seu projeto.
+Nesse projeto, eu fui capaz de:
 
-É essencial que você preencha esse documento por conta própria, ok?
+- Utilizar React Icons
+- Utilizar corretamente o método render() para renderizar meus componentes;
+- Utilizar import para trazer componentes em diferentes arquivos;
+- Criar componentes de classe em React;
+- Criar múltiplos componentes a partir de um array;
+- Usar props corretamente;
+- Usar PropTypes para validar as props de um componente.
 
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
+### EN
 
-⚠️ IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
+In this project, I was able to:
 
--->
+- Use React Icons
+- Correctly use the render() method to render my components;
+- Use import to bring components into different files;
+- Create class components in React;
+- Create multiple components from an array;
+- Use props correctly;
+- Use PropTypes to validate a component's props.
+
+#### Project Link: https://project-solar-system-liart.vercel.app/
