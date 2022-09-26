@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { ImCalendar, ImLocation, ImFlag } from 'react-icons/im';
 
 class MissionCard extends React.Component {
   render() {
@@ -7,9 +8,18 @@ class MissionCard extends React.Component {
     return (
       <div className="mission-card" data-testid="mission-card">
         <span data-testid="mission-name">{ name }</span>
-        <span data-testid="mission-year">{ year }</span>
-        <span data-testid="mission-country">{ country }</span>
-        <span data-testid="mission-destination">{ destination }</span>
+        <div className="info">
+          <ImCalendar />
+          <span data-testid="mission-year">{ year }</span>
+        </div>
+        <div className="info">
+          <ImLocation />
+          <span data-testid="mission-country">{ country }</span>
+        </div>
+        <div className="info">
+          <ImFlag />
+          <span data-testid="mission-destination">{ destination }</span>
+        </div>
       </div>
     );
   }

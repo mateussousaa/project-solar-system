@@ -4,10 +4,6 @@ import PlanetCard from './PlanetCard';
 import planets from '../data/planets';
 
 class SolarSystem extends React.Component {
-  toRight = () => {
-
-  }
-
   render() {
     return (
       <div className="solar-system">

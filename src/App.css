@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -18,19 +17,14 @@ body {
   width: 100%;
   height: 100vh;
   color: white;
-  font-family: "Oswald", sans-serif;
+  font-family: "Epilogue", sans-serif;
   background-image: url('./images/background.png');
 }
 
 .container {
   margin: 0 auto;
   max-width: 960px;
-}
-
-.header .title {
-  display: flex;
-  justify-content: center;
-  padding: 2rem;
+  width: 100%;
 }
 
 .solar-system {
@@ -39,7 +33,10 @@ body {
 
 .solar-system .title {
   display: flex;
+  font-size: 40px;
+  font-weight: 300;
   justify-content: center;
+  text-transform: uppercase;
   padding: 1rem;
 }
 
@@ -52,20 +49,18 @@ body {
 
 .slider .item {
   width: 250px;
-  height: 250px;
   flex: none;
   scroll-snap-align: start;
 }
 
 .slider .item img {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
 .slider .item .caption {
-  font-weight: 700;
-  font-size: 1.2rem;
+  font-weight: 400;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
 }
@@ -77,6 +72,9 @@ body {
 .missions .title {
   display: flex;
   justify-content: center;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
   padding: 1rem;
 }
 
@@ -86,27 +84,43 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
+  border-radius: 30px;
 }
 
 .mission-card {
+  background: rgba(24, 26, 37, 0.5);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 4px;
   width: 33%;
-  border-radius: 5px;
+  border-radius: 17px;
   padding: 1rem;
-  background-color: var(--color03);
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
+.mission-card .info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
 .mission-card span {
-  font-size: 1.2rem;
+  font-size: 16px;
+  display: block;
+  line-height: 25px;
+}
+
+.mission-card span:first-child {
+  border-bottom: 1px solid #FFFFFF;
+  line-height: 25px;
+  width: 100%;
+  font-size: 16px;
   display: block;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   .mission-card {
     width: 60%;
   }
