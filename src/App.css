@@ -30,6 +30,7 @@ body {
 .header .logo {
   max-width: 450px;
   margin: auto;
+  padding: 8px;
 }
 
 .header .logo img {
