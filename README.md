@@ -1,5 +1,7 @@
 # Solar System
 
+![Screenshot da tela inicial](solar_system.gif)
+
 ### PT - BR
 
 Nesse projeto, eu fui capaz de:
